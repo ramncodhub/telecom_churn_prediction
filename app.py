@@ -21,7 +21,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_artifacts():
-    model_path = os.path.join(os.path.dirname(__file__), 'models', 'xgboost_model.pkl')
+    model_path = os.path.join(os.path.dirname(__file__), 'models', 'model.pkl')
     if not os.path.exists(model_path):
         return None
     return joblib.load(model_path)
