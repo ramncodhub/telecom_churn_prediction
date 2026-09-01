@@ -42,7 +42,7 @@ telco_churn_project/
 │       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
 │
 ├── models/
-│   └── xgboost_model.pkl
+│   └── model.pkl
 │
 ├── src/
 │   ├── __init__.py
